@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/10/08 14:43:44.000.461,C:\Users\ricardo.tondello\Documents\Embarcadero\Studio\Projects\gsCompressPDF.dproj=C:\Users\ricardo.tondello\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2019/10/08 14:43:58.000.258,D:\UNJ\gs-compressor\gsCompressPDF.dproj=C:\Users\ricardo.tondello\Documents\Embarcadero\Studio\Projects\gsCompressPDF.dproj</Transaction>
+    <Transaction>2019/10/08 14:44:23.000.274,=D:\UNJ\gs-compressor\uGhostScript.pas</Transaction>
+    <Transaction>2019/10/08 14:44:23.000.243,=D:\UNJ\gs-compressor\uCompressPDF.pas</Transaction>
+    <Transaction>2019/10/08 14:45:30.000.527,=D:\UNJ\saj-mp\bin\gsdll32.dll</Transaction>
+    <Transaction>2019/10/08 14:48:24.000.207,=D:\UNJ\gs-compressor\gsdll32.dll</Transaction>
+    <Transaction>2019/10/08 14:48:24.000.176,D:\UNJ\saj-mp\bin\gsdll32.dll=</Transaction>
+  </Transactions>
+</BorlandProject>
