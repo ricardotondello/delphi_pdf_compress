@@ -45,7 +45,6 @@ const
   gsNameMutex = '{8499BD4E-23C5-4FAA-AA9E-AC455C89C1AC}';
 
 var
-  sTeste: String;
   goMutex: THandle;
 
 { TGhostScript }
