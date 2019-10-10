@@ -79,7 +79,10 @@ var
 begin
   if psMessage = EmptyStr then
     Exit;
-  sPathDirectory := ExtractFilePath(ParamStr(0)) + 'pdfComprimidos\logs\';
+
+  sPathDirectory := ParamStr(3);
+  if sPathDirectory = EmptyStr then
+    sPathDirectory := ExtractFilePath(ParamStr(0)) + 'logs\';
   sPathLog := sPathDirectory + ExtractFileName(ParamStr(1)) + '.log';
 
   ForceDirectories(sPathDirectory);

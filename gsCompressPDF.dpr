@@ -41,16 +41,20 @@ var
   oCompressPDF: TCompressPDF;
 
 begin
-  if ParamCount <> 2 then
+  if ParamCount < 2 then
   begin
     Writeln('Invalid ParamCount. PathInput and PathOutput needed.');
     Halt(0);
   end;
-
-  oCompressPDF := TCompressPDF.Create;
-  oCompressPDF.PathInput := ParamStr(1);
-  oCompressPDF.PathOutput := ParamStr(2);
-  oCompressPDF.Execute;
+  try
+    Writeln('Compression started at ' + DateTimeToStr(now));
+    oCompressPDF := TCompressPDF.Create;
+    oCompressPDF.PathInput := ParamStr(1);
+    oCompressPDF.PathOutput := ParamStr(2);
+    oCompressPDF.Execute;    
+  finally
+    WriteLn('Compression Done at '+ DateTimeToStr(now) +'. Check log folder.');
+  end;
 end.
 
 
